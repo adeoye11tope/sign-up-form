@@ -1,0 +1,68 @@
+body{
+    
+    background-image: url('travellocation1.jpg');
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+#next-container{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #ffffff;
+
+
+    padding-right: 40%;
+    
+    
+    height: 100vh;
+}
+#first-container{
+    
+    display: flex;
+    flex-direction: row;
+
+    
+    padding: 0;
+    
+}
+p{
+    text-align: left;
+}
+.input-container{
+    display: flex;
+    flex-direction: row;
+}
+.input-container > div{
+    display: flex;
+    flex-direction:column;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+label{
+    align-items: center;
+    justify-content: center;
+}
+button{
+    color:green;
+    
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 0;
+    width: 100px;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+#first-container > div{
+    text-align: end;
+}
+

@@ -10,6 +10,11 @@ body{
     
 
 }
+@font-face {
+    font-family: norse-bold;
+    src: url(webfontkit/journal-webfont.woff2);
+    src: url(webfontkit/journal-webfont.woff);
+}
 
 #next-container{
     display: flex;
@@ -18,13 +23,14 @@ body{
     background-color: #ffffff;
 
 
-    padding-right: 40%;
+    padding-right: 100%;
     
     
     height: 100vh;
 }
 #first-container{
-    
+    font-family: norse-bold;
+    font-size: large;
     display: flex;
     flex-direction: row;
 
@@ -51,18 +57,28 @@ label{
     justify-content: center;
 }
 button{
-    color:green;
+    color:#596D48;
+    background-color: #00ff00;
     
     margin-top: 10px;
     border-radius: 10px;
     padding: 0;
     width: 100px;
+    border: 1px solid #ffffff;
 }
 a{
-    color: green;
+    color: #00ff00;
     text-decoration: none;
 }
 #first-container > div{
     text-align: end;
 }
-
+input{
+    border: 1px solid #E5E7EB;
+}
+input:invalid{
+    border: 1px solid #ff0000;
+}
+input:focus{
+    border: 1px solid #0000ff;
+}
